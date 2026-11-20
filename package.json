@@ -1,0 +1,51 @@
+{
+  "name": "portpilot",
+  "version": "0.1.0",
+  "description": "Intelligent cross-platform CLI port and process manager for developers",
+  "type": "module",
+  "main": "src/cli/index.js",
+  "bin": {
+    "portpilot": "./bin/portpilot.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "LICENSE",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "start": "node bin/portpilot.js",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "port",
+    "process",
+    "cli",
+    "eaddrinuse",
+    "developer-tools",
+    "network",
+    "scanner",
+    "lsof",
+    "kill-port"
+  ],
+  "author": "Vedansh Saini",
+  "license": "MIT",
+  "dependencies": {
+    "@inquirer/prompts": "^7.3.3",
+    "chalk": "^5.4.1",
+    "commander": "^13.1.0",
+    "ora": "^8.2.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.21.0",
+    "@vitest/coverage-v8": "^5.1.1",
+    "eslint": "^9.21.0",
+    "vitest": "^5.1.1"
+  }
+}
