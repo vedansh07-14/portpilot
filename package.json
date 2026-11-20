@@ -14,9 +14,16 @@
     "README.md"
   ],
   "engines": {
-    "node": ">=22.0.0"
+    "node": ">=20.0.0"
   },
-  "scripts": {
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vedansh07-14/portpilot.git"
+  },
+  "homepage": "https://github.com/vedansh07-14/portpilot#readme",
+  "bugs": {
+    "url": "https://github.com/vedansh07-14/portpilot/issues"
+  },
     "start": "node bin/portpilot.js",
     "test": "vitest run",
     "test:watch": "vitest",

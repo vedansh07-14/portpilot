@@ -34,7 +34,7 @@ PortPilot provides a unified, interactive experience for:
 - Searching processes by name.
 - Diagnosing common port‑conflict scenarios.
 
-It is built with **Node.js 22+**, **ESM**, and a minimal dependency set (`commander`, `chalk`, `@inquirer/prompts`, `ora`).
+It is built with **Node.js ≥ 20**, **ESM**, and a minimal dependency set (`commander`, `chalk`, `@inquirer/prompts`, `ora`).
 
 ---
 
@@ -75,7 +75,7 @@ Or, after publishing to npm:
 npm install -g portpilot    # global install
 ```
 
-> **Note:** The package requires Node.js ≥ 22.
+> **Note:** The package requires Node.js ≥ 20.
 
 ---
 
