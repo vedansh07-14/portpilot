@@ -5,7 +5,8 @@
   "type": "module",
   "main": "src/cli/index.js",
   "bin": {
-    "portpilot": "./bin/portpilot.js"
+    "portpilot": "./bin/portpilot.js",
+    "portpilot-cli": "./bin/portpilot.js"
   },
   "files": [
     "bin",
