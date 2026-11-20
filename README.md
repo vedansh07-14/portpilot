@@ -72,7 +72,7 @@ npm link          # optional: make `portpilot` available globally for this proje
 Or, after publishing to npm:
 
 ```bash
-npm install -g portpilot    # global install
+npm install -g portpilot-cli    # global install
 ```
 
 > **Note:** The package requires Node.js ≥ 20.

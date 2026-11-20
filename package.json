@@ -1,6 +1,6 @@
 {
-  "name": "portpilot",
-  "version": "0.1.0",
+  "name": "portpilot-cli",
+  "version": "1.2.1",
   "description": "Intelligent cross-platform CLI port and process manager for developers",
   "type": "module",
   "main": "src/cli/index.js",
