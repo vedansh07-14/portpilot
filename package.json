@@ -24,6 +24,7 @@
   "bugs": {
     "url": "https://github.com/vedansh07-14/portpilot/issues"
   },
+  "scripts": {
     "start": "node bin/portpilot.js",
     "test": "vitest run",
     "test:watch": "vitest",
